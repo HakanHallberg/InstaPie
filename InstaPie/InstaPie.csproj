@@ -43,6 +43,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Pages\InstaPie\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c8b939c-4b87-4a4f-b9fe-47d47f916558}</SharePointProjectItemId>
+    </None>
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2a3e1f48-9ff0-4934-a4eb-394f476d5ff1}</SharePointProjectItemId>
     </None>
@@ -55,6 +58,10 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{31be3eb4-02e3-4f94-9275-db9def5d96dd}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\InstaPie.aspx" />
+    <Content Include="Pages\InstaPie\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-3.1.1.intellisense.js" />

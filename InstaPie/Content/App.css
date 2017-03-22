@@ -1,6 +1,7 @@
-﻿#instaWrap {
+﻿/*for the full page*/
+#instaWrap {
     border: 1px solid black;
-    height: 500px;
+    height: 334px;
 }
 
 #instaInfo {
@@ -41,4 +42,52 @@
     width: 430px;
     height: 300px;
     margin-left: 160px;
+}
+
+/*for the app-part*/
+#instaWrap2 {
+    border: 1px solid black;
+    background-color: snow;
+    height: 300px;
+    width: 662px;
+}
+
+#instaInfo2 {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 60px;
+    float: left;
+    padding: 3px;
+}
+
+#instaStuff2 {
+    border: 1px dotted black;
+    width: 198px;
+    height: 23px;
+    float: left;
+}
+
+#instaColor2 {
+    border: 1px dotted black;
+    width: 34px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#instaNumber2 {
+    border: 1px dotted black;
+    width: 50px;
+    height: 25px;
+    margin-right: 17px;
+}
+
+#instaSend2 {
+}
+/*canvas*/
+#instaPie2 {
+    background-color: thistle;
+    width: 430px;
+    height: 300px;
+    margin-left: 25px;
 }
