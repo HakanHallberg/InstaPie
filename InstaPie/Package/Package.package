@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="693b495a-95e8-4a88-a948-188f7483b393" 
+        solutionId="693b495a-95e8-4a88-a948-188f7483b393" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="InstaPie"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="ab29f3e8-5864-4b9f-9cf3-7ee49c464f16" />
+  </features>
+</package>

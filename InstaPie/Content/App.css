@@ -1,0 +1,44 @@
+﻿#instaWrap {
+    border: 1px solid black;
+    height: 500px;
+}
+
+#instaInfo {
+    background-color: cornflowerblue;
+    width: 455px;
+    height: 35px;
+    float: left
+}
+
+#instaStuff {
+    border: 1px solid black;
+    width: 190px;
+    height: 29px;
+    float: left;
+    margin-right: 30px;
+}
+
+#instaColor {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+#instaNumber {
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#instaSend {
+    
+}
+/*canvas*/
+#instaPie {
+    background-color: thistle;
+    width: 430px;
+    height: 300px;
+    margin-left: 160px;
+}
