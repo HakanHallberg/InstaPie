@@ -30,9 +30,10 @@
             <input type="text" id="instaStuff"/>
             <input type="color" id="instaColor"/>
             <input type="number" id="instaNumber"/>
-            <button id="instaSend">Submit</button>
+            <input type="button" id="instaSend" value="Add" onclick="test();">
         </div>
         <div id="instaPie"></div>
+        <div id="instaTest"></div>
     </div>
 
 </asp:Content>
