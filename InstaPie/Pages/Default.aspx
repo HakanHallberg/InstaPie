@@ -32,7 +32,7 @@
             <input type="number" id="instaNumber"/>
             <button id="instaSend">Submit</button>
         </div>
-        <canvas id="instaPie"></canvas>
+        <div id="instaPie"></div>
     </div>
 
 </asp:Content>
