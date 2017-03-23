@@ -1,2 +1,6 @@
 ﻿'use strict';
 
+function test()
+{
+
+}
