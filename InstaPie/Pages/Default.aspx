@@ -30,7 +30,7 @@
             <input type="text" id="instaStuff"/>
             <input type="color" id="instaColor"/>
             <input type="number" id="instaNumber"/>
-            <input type="button" id="instaSend" value="Add" onclick="test();">
+            <input type="button" id="instaSend" value="Add" onclick="updatePieTitle();">
         </div>
         <div id="instaPie"></div>
         <div id="instaTest"></div>

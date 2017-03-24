@@ -13,8 +13,8 @@ google.charts.setOnLoadCallback(drawChart);
 
 
 function updatePieTitle() {
-    pieTitle = document.getElementById('instaStuff');
-    pieText = document.getElementById('instaStuff');
+    pieTitle = document.getElementById('instaStuff').value;
+    pieText = document.getElementById('instaStuff').value;
     drawChart();
 }
 
@@ -32,11 +32,3 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('instaPie'));
     chart.draw(data, options);
 }
-
-function test()
-{
-    //testtext = document.getElementById('instaStuff');
-    document.getElementById('instaTest').innerHTML = document.getElementById('instaStuff').value;
-}
-
-

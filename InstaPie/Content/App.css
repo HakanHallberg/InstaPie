@@ -1,35 +1,36 @@
 ﻿/*for the full page*/
 #instaWrap {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: 334px;
 }
 
 #instaInfo {
-    background-color: cornflowerblue;
     width: 455px;
-    height: 35px;
-    float: left
+    height: 30px;
+    margin-top:50px;
+    float: left;
 }
 
 #instaStuff {
     border: 1px solid black;
-    width: 190px;
-    height: 29px;
+    width: 150px;
+    height: 20px;
     float: left;
+    margin-top:2px;
     margin-right: 30px;
 }
 
 #instaColor {
     border: 1px solid black;
     width: 30px;
-    height: 30px;
+    height: 24px;
     margin-right: 30px;
 }
 
 #instaNumber {
     border: 1px solid black;
     width: 50px;
-    height: 30px;
+    height: 25px;
     margin-right: 20px;
 }
 
@@ -91,8 +92,3 @@
     height: 300px;
     margin-left: 25px;
 }
-
-
-
-
-/*pieshart*/
