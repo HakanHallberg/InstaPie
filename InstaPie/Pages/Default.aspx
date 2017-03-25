@@ -28,12 +28,12 @@
     <div id="instaWrap">
         <div id="instaInfo">
             <input type="text" id="instaStuff"/>
-            <input type="color" id="instaColor"/>
+            <!--input type="color" id="instaColor"/-->
             <input type="number" id="instaNumber"/>
-            <input type="button" id="instaSend" value="Add" onclick="updatePieTitle();">
+            <input type="button" id="instaAdd" value="+" onclick="updatePieTitle();"><br />
+            <div id="testResults"></div>
         </div>
         <div id="instaPie"></div>
-        <div id="instaTest"></div>
     </div>
 
 </asp:Content>
