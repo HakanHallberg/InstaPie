@@ -13,9 +13,9 @@ google.charts.setOnLoadCallback(drawChart);
 function updatePieTitle() {
 
     pieItems.push("document.getElementById('instaStuff').value", document.getElementById('instaNumber').value);
-    pieItems[0][0] = "ArrayItem";
-    pieItems[0][1] = 100;
-    pieText = document.getElementById('instaStuff').value;
+    pieItems[0][0] = document.getElementById('instaStuff').value;
+    pieItems[0][1] = document.getElementById('instaNumber').value;
+    //pieText = document.getElementById('instaStuff').value;
     drawChart();
 }
 
