@@ -27,10 +27,47 @@
 
     <div id="instaWrap">
         <div id="instaInfo">
-            <input type="text" id="instaStuff"/>
             <!--input type="color" id="instaColor"/-->
-            <input type="number" id="instaNumber"/>
-            <input type="button" id="instaAdd" value="+" onclick="updatePieTitle();"><br />
+            <input type="text" id="instaStuff1" class="pieText"/>
+            <input type="number" id="instaNumber1" class="pieNr"/>
+            <input type="button" id="instaAdd1" class="pieButton" value="+" onclick="updatePieTitle(1);"><br />
+
+            <input type="text" id="instaStuff2" class="pieText"/>
+            <input type="number" id="instaNumber2" class="pieNr"/>
+            <input type="button" id="instaAdd2" class="pieButton" value="+" onclick="updatePieTitle(2);"><br />
+
+            <input type="text" id="instaStuff3" class="pieText"/>
+            <input type="number" id="instaNumber3" class="pieNr"/>
+            <input type="button" id="instaAdd3" class="pieButton" value="+" onclick="updatePieTitle(3);"><br />
+
+            <input type="text" id="instaStuff4" class="pieText"/>
+            <input type="number" id="instaNumber4" class="pieNr"/>
+            <input type="button" id="instaAdd4" class="pieButton" value="+" onclick="updatePieTitle(4);"><br />
+
+            <input type="text" id="instaStuff5" class="pieText"/>
+            <input type="number" id="instaNumber5" class="pieNr"/>
+            <input type="button" id="instaAdd5" class="pieButton" value="+" onclick="updatePieTitle(5);"><br />
+            
+            <input type="text" id="instaStuff6" class="pieText"/>
+            <input type="number" id="instaNumber6" class="pieNr"/>
+            <input type="button" id="instaAdd6" class="pieButton" value="+" onclick="updatePieTitle(6);"><br />
+            
+            <input type="text" id="instaStuff7" class="pieText"/>
+            <input type="number" id="instaNumber7" class="pieNr"/>
+            <input type="button" id="instaAdd7" class="pieButton" value="+" onclick="updatePieTitle(7);"><br />
+            
+            <input type="text" id="instaStuff8" class="pieText"/>
+            <input type="number" id="instaNumber8" class="pieNr"/>
+            <input type="button" id="instaAdd8" class="pieButton" value="+" onclick="updatePieTitle(8);"><br />
+            
+            <input type="text" id="instaStuff9" class="pieText"/>
+            <input type="number" id="instaNumber9" class="pieNr"/>
+            <input type="button" id="instaAdd9" class="pieButton" value="+" onclick="updatePieTitle(9);"><br />
+            
+            <input type="text" id="instaStuff10" class="pieText"/>
+            <input type="number" id="instaNumber10" class="pieNr"/>
+            <input type="button" id="instaAdd10" class="pieButton" value="+" onclick="updatePieTitle(10);"><br />
+
             <div id="testResults"></div>
         </div>
         <div id="instaPie"></div>

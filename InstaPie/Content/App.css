@@ -10,13 +10,13 @@
     float: left;
 }
 
-#instaStuff {
+/*#instaStuff {
     border: 1px solid black;
     width: 150px;
     height: 18px;
     float: left;
     margin-right: 5px;
-}
+}*/
 
 #instaColor {
     border: 1px solid black;
@@ -25,20 +25,20 @@
     margin-right: 5px;
 }
 
-#instaNumber {
+/*#instaNumber {
     border: 1px solid black;
     width: 50px;
     height: 20px;
     margin-right: 5px;
-}
+}*/
 
-#instaAdd {
+/*#instaAdd {
     height: 24px;
     background-color:lightgreen;
     border: 1px solid black;
     padding: 0px;
     width:10px;
-}
+}*/
 
 /*canvas*/
 #instaPie {
@@ -47,6 +47,38 @@
     height: 500px;
     margin-left: 310px;
 }
+
+.pieNr 
+{
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.pieText
+{
+    border: 1px solid black;
+    width: 150px;
+    height: 18px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.pieButton {
+    height: 24px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 0px;
+    width: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
 
 /*for the app-part*/
 #instaWrap2 {
