@@ -9,17 +9,50 @@
 <head>
     <title>InstaPie</title>
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.min.js"></script>
-    <link href="../Content/App.css" rel="stylesheet" />
+    <link href="../Content/AppPart.css" rel="stylesheet" />
 </head>
 <body>
-        <div id="instaWrap2">
-        <div id="instaInfo2">
-            <input type="text" id="instaStuff2"/>
-            <input type="color" id="instaColor2"/>
-            <input type="number" id="instaNumber2"/>
-            <button id="instaSend2">Submit</button>
+           <div id="instaWrap">
+        <div id="instaInfo">
+            <!--input type="color" id="instaColor"/-->
+            <input type="text" id="instaStuff1" class="pieText"/>
+            <input type="number" id="instaNumber1" class="pieNr"/><br />
+
+            <input type="text" id="instaStuff2" class="pieText"/>
+            <input type="number" id="instaNumber2" class="pieNr"/><br />
+
+            <input type="text" id="instaStuff3" class="pieText"/>
+            <input type="number" id="instaNumber3" class="pieNr"/><br />
+
+            <input type="text" id="instaStuff4" class="pieText"/>
+            <input type="number" id="instaNumber4" class="pieNr"/><br />
+
+            <input type="text" id="instaStuff5" class="pieText"/>
+            <input type="number" id="instaNumber5" class="pieNr"/><br />
+            
+            <input type="text" id="instaStuff6" class="pieText"/>
+            <input type="number" id="instaNumber6" class="pieNr"/><br />
+            
+            <input type="text" id="instaStuff7" class="pieText"/>
+            <input type="number" id="instaNumber7" class="pieNr"/><br />
+            
+            <input type="text" id="instaStuff8" class="pieText"/>
+            <input type="number" id="instaNumber8" class="pieNr"/><br />
+            
+            <input type="text" id="instaStuff9" class="pieText"/>
+            <input type="number" id="instaNumber9" class="pieNr"/><br />
+            
+            <input type="text" id="instaStuff10" class="pieText"/>
+            <input type="number" id="instaNumber10" class="pieNr"/><br />
+
+            <input type="button" id="instaAdd10" class="updateButton" value="Update &#8635" onclick="updatePieTitle(10);">
+            <input type="button" id="instaAdd10" class="clearButton" value="&#9587" onclick="clearAll();">
+            <br />
+
+            <div id="testResults"></div>
         </div>
-        <canvas id="instaPie2"></canvas>
+        <div id="instaPie"></div>
     </div>
+    <script type="text/javascript" src="../Scripts/App.js"></script>
 </body>
 </html>

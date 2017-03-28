@@ -41,6 +41,11 @@ function updatePie()
     drawChart();
 }
 
+function clearAll() {
+    $("input[type=text]").val('');
+    $("input[type=number]").val('');
+}
+
 function drawChart() {
     /*var pieString = "";
     for (var arrRow = 0; arrRow <= pieItems.length; arrRow++)

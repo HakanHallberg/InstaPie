@@ -49,6 +49,7 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2a3e1f48-9ff0-4934-a4eb-394f476d5ff1}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\AppPart.css" />
     <Content Include="Elements.xml" />
     <Content Include="Scripts\loader.js" />
     <Content Include="Pages\Elements.xml" />

@@ -7,11 +7,10 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
-    <meta name="WebPartPageExpansion" content="full" />
+     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->
-    <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link rel="Stylesheet" type="text/css" href="../Content/App.css" after="corev15app.css" />
 
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
@@ -58,8 +57,8 @@
             <input type="text" id="instaStuff10" class="pieText"/>
             <input type="number" id="instaNumber10" class="pieNr"/><br />
 
-            <input type="button" id="updatePie" class="pieButton" value="Update" onclick="drawChart();">
-            <input type="button" id="clearPie" class="pieButton" value="X" onclick="clearPie();">
+            <input type="button" id="updatePie" class="pieButton" value="Update &#8635" onclick="drawChart();">
+            <input type="button" id="clearPie" class="pieButton" value="&#9587" onclick="clearAll();">
             <br />
 
             <div id="testResults"></div>
