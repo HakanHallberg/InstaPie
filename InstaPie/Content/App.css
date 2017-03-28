@@ -67,13 +67,15 @@
     margin-bottom: 5px;
 }
 
-.pieButton {
+.pieButton 
+{
     height: 24px;
     background-color: lightgreen;
     border: 1px solid black;
     padding: 0px;
     width: 10px;
     margin-bottom: 5px;
+
 }
 
 

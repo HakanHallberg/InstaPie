@@ -59,7 +59,7 @@
             <input type="number" id="instaNumber10" class="pieNr"/><br />
 
             <input type="button" id="instaAdd10" class="pieButton" value="Update" onclick="updatePieTitle(10);">
-            <input type="button" id="instaAdd10" class="pieButton" value="Clear" onclick="clearAll();">
+            <input type="button" id="instaAdd10" class="pieButton" value="Clear" onclick="updatePieTitle(10);">
             <br />
 
             <div id="testResults"></div>
