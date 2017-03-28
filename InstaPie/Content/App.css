@@ -67,7 +67,7 @@
     margin-bottom: 5px;
 }
 
-.pieButton 
+/*.pieButton 
 {
     height: 24px;
     background-color: lightgreen;
@@ -76,6 +76,24 @@
     width: 10px;
     margin-bottom: 5px;
 
+}*/
+
+.updateButton {
+    margin-left: 0px !important;
+    margin-right: -14px;
+    width: 152px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: lightgreen !important;
+    font-size: initial !important;
+    height: 32px;
+    padding: 0px !important;
+}
+
+.clearButton {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: orangered!important;
 }
 
 
