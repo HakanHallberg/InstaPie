@@ -30,6 +30,7 @@
             <input type="text" id="instaStuff1" class="pieText"/>
             <input type="number" id="instaNumber1" class="pieNr"/><br />
 
+
             <input type="text" id="instaStuff2" class="pieText"/>
             <input type="number" id="instaNumber2" class="pieNr"/><br />
 
