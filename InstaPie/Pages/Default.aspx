@@ -57,10 +57,28 @@
             
             <input type="text" id="instaStuff10" class="pieText"/>
             <input type="number" id="instaNumber10" class="pieNr"/><br />
-
+            
+            <br />
+             
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+            <div id="buttonDiv">
             <input type="button" id="updatePie" class="updateButton" value="Update &#8635" onclick="drawChart();">
             <input type="button" id="clearPie" class="clearButton" value="&#9587" onclick="clearAll();">
-            <br />
+            </div> 
+		</div>
+		<div class="back">
+			<!-- back content -->
+            <h1>FUCK OFF!</h1>
+		</div>
+	</div>
+</div>  
+                
+                
+                
+
 
             <div id="testResults"></div>
         </div>
