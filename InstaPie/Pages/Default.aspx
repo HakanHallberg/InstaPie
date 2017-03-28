@@ -58,7 +58,7 @@
             <input type="text" id="instaStuff10" class="pieText"/>
             <input type="number" id="instaNumber10" class="pieNr"/><br />
 
-            <input type="button" id="updatePie" class="pieButton" value="Update" onclick="updatePie();">
+            <input type="button" id="updatePie" class="pieButton" value="Update" onclick="drawChart();">
             <input type="button" id="clearPie" class="pieButton" value="X" onclick="clearPie();">
             <br />
 

@@ -2,6 +2,10 @@
 
 'use strict';
 
+var totalValue = 0;
+var noOfValues = 0;
+var maxValue = 100;
+
 var testVal = document.getElementById('instaNumber1');
 var pieTitle = "The Pie";
 var pieItems = [
@@ -22,11 +26,17 @@ google.charts.load('current', { 'packages': ['corechart'] });
 google.charts.setOnLoadCallback(drawChart);
 
 
-function updatePieTitle() {
+function updatePie()
+{
+   
+
+    //google.charts.load('current', { 'packages': ['corechart'] });
+    //google.charts.setOnLoadCallback(drawChart);
+
 
     //pieItems.push("document.getElementById('instaStuff1').value", document.getElementById('instaNumber').value);
-    pieItems[0][0] = document.getElementById('instaStuff1').value;
-    pieItems[0][1] = document.getElementById('instaNumber1').value;
+    //pieItems[0][0] = document.getElementById('instaStuff1').value;
+    //pieItems[0][1] = document.getElementById('instaNumber1').value;
     //pieText = document.getElementById('instaStuff1').value;
     drawChart();
 }
@@ -46,18 +56,38 @@ function drawChart() {
         //}
     ]);*/
 
+    if (document.getElementById('instaNumber1').value) {
+        //totalValue = totalValue + parseInt(document.getElementById("instaNumber1").value);
+        noOfValues += 1;
+        pieItems[0][1] = document.getElementById("instaNumber1").value;
+    }
+    if (document.getElementById('instaNumber2').value) {
+        //totalValue = totalValue + parseInt(document.getElementById("instaNumber2").value);
+        noOfValues += 1;
+        pieItems[1][1] = document.getElementById("instaNumber2").value;
+    }
+    if (document.getElementById('instaNumber3').value) {
+        //totalValue = totalValue + parseInt(document.getElementById("instaNumber3").value);
+        noOfValues += 1;
+        pieItems[2][1] = document.getElementById("instaNumber3").value;
+    }
+    
+    totalValue = eval(document.getElementById('instaNumber1').innerHTML + document.getElementById("instaNumber2").innerHTML + document.getElementById('instaNumber3').innerHTML);
+
+
+
     var data = google.visualization.arrayToDataTable([
         ['Text', 'number'],
         [pieItems[0][0], pieItems[0][1]],
         [pieItems[1][0], pieItems[1][1]],
-        [pieItems[2][0], pieItems[0][1]],
-        [pieItems[3][0], pieItems[0][1]],
-        [pieItems[4][0], pieItems[0][1]],
-        [pieItems[5][0], pieItems[0][1]],
-        [pieItems[6][0], pieItems[0][1]],
-        [pieItems[7][0], pieItems[0][1]],
-        [pieItems[8][0], pieItems[0][1]],
-        [pieItems[9][0], pieItems[0][1]]
+        [pieItems[2][0], pieItems[2][1]],
+        [pieItems[3][0], pieItems[3][1]],
+        [pieItems[4][0], pieItems[4][1]],
+        [pieItems[5][0], pieItems[5][1]],
+        [pieItems[6][0], pieItems[6][1]],
+        [pieItems[7][0], pieItems[7][1]],
+        [pieItems[8][0], pieItems[8][1]],
+        [pieItems[9][0], pieItems[9][1]]
 
         //pieString
     ]);
@@ -67,7 +97,7 @@ function drawChart() {
         width: '800'
     };
 
-    document.getElementById('testResults').innerHTML = "Antal poster: " + pieItems.length;
+    document.getElementById('testResults').innerHTML = "Antal poster: " + pieItems.length + "<br />Antal värden: " + noOfValues + "<br />TotalVal: " + totalValue;
 
     var chart = new google.visualization.PieChart(document.getElementById('instaPie'));
     chart.draw(data, options);
