@@ -58,8 +58,8 @@
             <input type="text" id="instaStuff10" class="pieText"/>
             <input type="number" id="instaNumber10" class="pieNr"/><br />
 
-            <input type="button" id="instaAdd10" class="updateButton" value="Update &#8635" onclick="updatePieTitle(10);">
-            <input type="button" id="instaAdd10" class="clearButton" value="&#9587" onclick="clearAll();">
+            <input type="button" id="updatePie" class="pieButton" value="Update &#8635" onclick="drawChart();">
+            <input type="button" id="clearPie" class="pieButton" value="&#9587" onclick="clearAll();">
             <br />
 
             <div id="testResults"></div>
