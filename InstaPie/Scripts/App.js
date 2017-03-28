@@ -61,25 +61,24 @@ function drawChart() {
         //}
     ]);*/
 
+    totalValue = 0;
+    noOfValues = 0;
+
     if (document.getElementById('instaNumber1').value) {
-        //totalValue = totalValue + parseInt(document.getElementById("instaNumber1").value);
         noOfValues += 1;
         pieItems[0][1] = document.getElementById("instaNumber1").value;
     }
     if (document.getElementById('instaNumber2').value) {
-        //totalValue = totalValue + parseInt(document.getElementById("instaNumber2").value);
         noOfValues += 1;
         pieItems[1][1] = document.getElementById("instaNumber2").value;
     }
     if (document.getElementById('instaNumber3').value) {
-        //totalValue = totalValue + parseInt(document.getElementById("instaNumber3").value);
         noOfValues += 1;
         pieItems[2][1] = document.getElementById("instaNumber3").value;
     }
     
-    totalValue = eval(document.getElementById('instaNumber1').innerHTML + document.getElementById("instaNumber2").innerHTML + document.getElementById('instaNumber3').innerHTML);
-
-
+    totalValue = eval(document.getElementById('instaNumber1').innerHTML + document.getElementById("instaNumber2").innerHTML);
+    totalValue = eval(document.getElementById("instaNumber1").innerHTML);
 
     var data = google.visualization.arrayToDataTable([
         ['Text', 'number'],
