@@ -1,4 +1,4 @@
-﻿//COPYRIGHT © 2017 Peter Borg & Håkan Hallberg
+﻿ //COPYRIGHT © 2017 Peter Borg & Håkan Hallberg
 
 'use strict';
 
