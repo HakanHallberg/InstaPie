@@ -1,6 +1,5 @@
-﻿
-#instaWrap {
-   
+﻿#instaWrap {
+    
     height: 350px;
 }
 
@@ -25,6 +24,8 @@
 }
 
 
+
+
 #instaPie {
     
     width: 500px;
@@ -32,8 +33,7 @@
     margin-left: 310px;
 }
 
-.pieNr 
-{
+.pieNr {
     border: 1px solid black;
     width: 50px;
     height: 20px;
@@ -41,8 +41,7 @@
     margin-bottom: 5px;
 }
 
-.pieText
-{
+.pieText {
     border: 1px solid black;
     width: 150px;
     height: 18px;
@@ -68,5 +67,5 @@
 .clearButton {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: orangered!important;
+    background-color: orangered !important;
 }
