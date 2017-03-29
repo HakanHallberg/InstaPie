@@ -118,3 +118,42 @@
 .back {
     transform: rotateY(180deg);
 }
+
+
+
+/*Så textfältet hamnar så man kan greppa det*/
+.ui-widget-content {
+    z-index: 2;
+    border: 3px solid #8f7bc1;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #8f7bc1;
+    float: left;
+    top: -100px;
+    margin:5px;
+}
+
+#draggable1
+{
+    top: -400px;
+}
+
+#draggable2
+{
+    
+    top: -220px;
+    left:-265px;
+}
+
+#draggable3 {
+    top: -400px;
+    left: +265px;
+}
+
+#draggable4 
+{
+    top: -220px;
+
+}
+
+

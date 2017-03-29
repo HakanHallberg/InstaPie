@@ -3,3 +3,8 @@
 'use strict';
 
 _spBodyOnLoadFunctionNames.push("init");
+
+$(function()
+{
+    $(".ui-widget-content").draggable();
+});

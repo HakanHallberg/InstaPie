@@ -16,6 +16,9 @@
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script type="text/javascript" src="../Scripts/go.js"></script>
     <script type="text/javascript" src="../Scripts/goSamples.js"></script>
+    <!--jquery för dragging-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -190,11 +193,11 @@
         { key: 0,
           text: "InstaPie",
           slices: [
-            { text: "Option 1", count: 21, color: "#B378C1" },
-            { text: "Option 2", count: 11, color: "#F25F5C" },
-            { text: "Option 3", count: 5, color: "#FFE066" },
-            { text: "Option 4", count: 2, color: "#2B98C5" },
-            { text: "Option 5", count: 1, color: "#70C1B3" }
+            { text: "Option 1", count: 1, color: "#B378C1" },
+            { text: "Option 2", count: 0, color: "#F25F5C" },
+            { text: "Option 3", count: 0, color: "#FFE066" },
+            { text: "Option 4", count: 0, color: "#2B98C5" },
+            { text: "Option 5", count: 0, color: "#70C1B3" }
           ]
         }
       ]
@@ -341,14 +344,16 @@
 
 
   <!--body onload="init()"-->
-    <div id="sample">
-      <div id="myDiagramDiv" style="border: solid 1px black; width: 100%; height: 500px;"></div>
-      
-      </div>
+    
 
-
-
-
+    
+    <!--div id="sample"-->
+        <div id="myDiagramDiv" style=" width: 100%; height: 500px;"></div>    
+    <!--/div-->
+    <div id="draggable1" class="ui-widget-content"><textarea name="text1" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable2" class="ui-widget-content"><textarea name="text2" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable3" class="ui-widget-content"><textarea name="text3" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable4" class="ui-widget-content"><textarea name="text4" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
 
 
 
