@@ -132,31 +132,32 @@
     margin:5px;
 }
 
-#draggable1
-{
+#draggable1 {
     top: -400px;
+    background-color: #B378C1;
 }
 
-#draggable2
-{
-    
+#draggable2 {
     top: -220px;
-    left:-265px;
+    left: -265px;
+    background-color: #F25F5C;
 }
 
 #draggable3 {
     top: -400px;
     left: +280px;
+    background-color: #FFE066;
 }
 
-#draggable4 
-{
+#draggable4 {
     top: -220px;
     left: +15px;
+    background-color: #2B98C5;
 }
 
 #draggable5 {
     top: -250px;
     left: +400px;
+    background-color: #70C1B3;
 }
 
