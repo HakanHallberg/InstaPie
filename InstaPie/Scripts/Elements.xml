@@ -10,5 +10,7 @@
     <File Path="Scripts\jquery-3.1.1.js" Url="Scripts/jquery-3.1.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-3.1.1.intellisense.js" Url="Scripts/jquery-3.1.1.intellisense.js" ReplaceContent="TRUE" />
     <File Path="Scripts\loader.js" Url="Scripts/loader.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\goSamples.js" Url="Scripts/goSamples.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\go.js" Url="Scripts/go.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

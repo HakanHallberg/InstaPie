@@ -51,6 +51,8 @@
     </None>
     <Content Include="Content\AppPart.css" />
     <Content Include="Elements.xml" />
+    <Content Include="Scripts\go.js" />
+    <Content Include="Scripts\goSamples.js" />
     <Content Include="Scripts\loader.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />

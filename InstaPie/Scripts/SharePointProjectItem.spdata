@@ -11,5 +11,7 @@
     <ProjectItemFile Source="jquery-3.1.1.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-3.1.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="loader.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="goSamples.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="go.js" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>
