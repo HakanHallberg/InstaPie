@@ -350,10 +350,11 @@
     <!--div id="sample"-->
         <div id="myDiagramDiv" style=" width: 100%; height: 500px;"></div>    
     <!--/div-->
-    <div id="draggable1" class="ui-widget-content"><textarea name="text1" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
-    <div id="draggable2" class="ui-widget-content"><textarea name="text2" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
-    <div id="draggable3" class="ui-widget-content"><textarea name="text3" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
-    <div id="draggable4" class="ui-widget-content"><textarea name="text4" cols="35" rows="8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable1" class="ui-widget-content"><textarea name="text1" cols="35" rows="8">Option 1&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable2" class="ui-widget-content"><textarea name="text2" cols="35" rows="8">Option 2&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable3" class="ui-widget-content"><textarea name="text3" cols="35" rows="8">Option 3&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable4" class="ui-widget-content"><textarea name="text4" cols="35" rows="8">Option 4&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
+    <div id="draggable5" class="ui-widget-content"><textarea name="text5" cols="35" rows="8">Option 5&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
 
 
 

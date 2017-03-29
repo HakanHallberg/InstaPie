@@ -129,7 +129,6 @@
     width: 250px;
     background-color: #8f7bc1;
     float: left;
-    top: -100px;
     margin:5px;
 }
 
@@ -147,13 +146,17 @@
 
 #draggable3 {
     top: -400px;
-    left: +265px;
+    left: +280px;
 }
 
 #draggable4 
 {
     top: -220px;
-
+    left: +15px;
 }
 
+#draggable5 {
+    top: -250px;
+    left: +400px;
+}
 
