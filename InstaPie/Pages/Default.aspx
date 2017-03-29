@@ -193,11 +193,11 @@
         { key: 0,
           text: "InstaPie",
           slices: [
-            { text: "Option 1", count: 1, color: "#B378C1" },
-            { text: "Option 2", count: 0, color: "#F25F5C" },
-            { text: "Option 3", count: 0, color: "#FFE066" },
-            { text: "Option 4", count: 0, color: "#2B98C5" },
-            { text: "Option 5", count: 0, color: "#70C1B3" }
+            { text: "Option 1", count: 20, color: "#B378C1" },
+            { text: "Option 2", count: 20, color: "#F25F5C" },
+            { text: "Option 3", count: 20, color: "#FFE066" },
+            { text: "Option 4", count: 20, color: "#2B98C5" },
+            { text: "Option 5", count: 20, color: "#70C1B3" }
           ]
         }
       ]
