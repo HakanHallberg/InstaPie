@@ -36,25 +36,9 @@
 				color: "#999999"
 			},
 			content: [
-				{label: "Bushtit", value: 5 },
-				{label: "Chickadee", value: 2 },
-				{label: "Elephants", value: 6 },
-				{label: "Killdeer", value: 3 },
-				{label: "Caspian Tern", value: 2 },
-				{label: "Blackbird", value: 1 },
-				{label: "Song Sparrow", value: 6 },
-				{label: "Luktrumpa", value: 5 },
-				{label: "Black-throated Gray warbler", value: 1 },
-				{label: "Pelican", value: 6 },
-				{label: "Bewick's Wren", value: 5 },
-				{label: "Cowbird", value: 1 },
-				{label: "Fox Sparrow", value: 6 },
-				{label: "Common Yellowthroat", value: 5 },
-				{label: "Virginia Rail", value: 1 },
-				{label: "Sora", value: 1 },
-				{label: "Osprey", value: 1 },
-				{label: "Merlin", value: 1 },
-				{label: "Kestrel", value: 1 }
+				{label: "Bushtit", value: 50 },
+				{label: "Chickadee", value: 25 },
+				{label: "Kestrel", value: 25 }
 			]
 		}
 	});
