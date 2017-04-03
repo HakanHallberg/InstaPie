@@ -43,7 +43,7 @@
 				{label: "Caspian Tern", value: 2 },
 				{label: "Blackbird", value: 1 },
 				{label: "Song Sparrow", value: 6 },
-				{label: "Blue Jay", value: 5 },
+				{label: "Luktrumpa", value: 5 },
 				{label: "Black-throated Gray warbler", value: 1 },
 				{label: "Pelican", value: 6 },
 				{label: "Bewick's Wren", value: 5 },
