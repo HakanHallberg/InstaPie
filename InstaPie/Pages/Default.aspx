@@ -13,7 +13,7 @@
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
-
+    <script src="../Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script type="text/javascript" src="../Scripts/go.js"></script>
     <script type="text/javascript" src="../Scripts/goSamples.js"></script>
@@ -357,6 +357,20 @@
     <div id="myPie"></div>
 
     <script>
-        var pie = new d3pie("mypie", {});
+        var pie = new d3pie("mypie", {
+            header: {
+            title: {
+            text: "A very simple example pie"
+		}
+	},
+	data: {
+            content: [
+			{label: "JavaScript", value: 264131 },
+			{label: "Ruby", value: 218812 },
+			{label: "Java", value: 157618},
+		]
+	}
+});
+        });
 </script>
 </asp:Content>

@@ -13,5 +13,7 @@
     <File Path="Scripts\goSamples.js" Url="Scripts/goSamples.js" ReplaceContent="TRUE" />
     <File Path="Scripts\go.js" Url="Scripts/go.js" ReplaceContent="TRUE" />
     <File Path="Scripts\d3pie.min.js" Url="Scripts/d3pie.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>
