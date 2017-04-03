@@ -50,7 +50,6 @@
             <input type="text" id="instaStuff1" class="pieText"/>
             <input type="number" id="instaNumber1" class="pieNr"/><br />
 
-
             <input type="text" id="instaStuff2" class="pieText"/>
             <input type="number" id="instaNumber2" class="pieNr"/><br />
 
@@ -85,7 +84,7 @@
 		<div class="front">
 			<!-- front content -->
             <div id="buttonDiv">
-            <input type="button" id="updatePie" class="updateButton" value="Update &#8635" onclick="drawChart();">
+            <input type="button" id="updatePie" class="updateButton" value="Update &#8635" onclick="updatePie();">
             <input type="button" id="clearPie" class="clearButton" value="&#9587" onclick="clearAll();">
             </div> 
 		</div>
@@ -97,6 +96,5 @@
 </div>  
               <div id="testResults"></div>
         </div>
-        <div id="instaPie"></div>
     </div>
 </asp:Content>
