@@ -82,7 +82,7 @@
 }
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper {
-        transition-delay: 5s;
+        transition-delay: 1s;
         transform: rotateY(180deg);
     }
 
@@ -118,6 +118,21 @@
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+    margin-left: 0px !important;
+    margin-right: -14px;
+    margin-top: 0px;
+    width: 216px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: initial !important;
+    height: 32px;
+    padding: 0px !important;
+    background-color: silver;
+}
+
+#loggo {
+    text-align: center;
+   
 }
 
 
