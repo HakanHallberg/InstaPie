@@ -4,15 +4,11 @@
 <%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    <script type="text/javascript" src="../Scripts/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-     <meta name="WebPartPageExpansion" content="full" />
-
+    <meta name="WebPartPageExpansion" content="full" />
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
-
+    <script type="text/javascript" src="../Scripts/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="../Scripts/App.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../Scripts/d3.min.js"></script>
     <script src="../Scripts/d3pie.js"></script>
 </asp:Content>

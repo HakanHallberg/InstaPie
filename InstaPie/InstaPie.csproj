@@ -58,7 +58,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Scripts\d3.min.js" />
     <Content Include="Scripts\d3pie.js" />
-    <Content Include="Scripts\loader.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="SharePointProjectItem.spdata">
