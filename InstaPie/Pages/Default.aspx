@@ -17,6 +17,8 @@
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script type="text/javascript" src="../Scripts/go.js"></script>
     <script type="text/javascript" src="../Scripts/goSamples.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+    <script src="../Scripts/d3pie.min.js"></script>
     <!--jquery för dragging-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -341,8 +343,7 @@
       myDiagram.model.commitTransaction("decrement count");
     }
     }
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
-    <script src="../Scripts/d3pie.min.js"></script>
+    
 </script>
     
     <!--div id="sample"-->
