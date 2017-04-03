@@ -13,6 +13,7 @@
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
+
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script type="text/javascript" src="../Scripts/go.js"></script>
     <script type="text/javascript" src="../Scripts/goSamples.js"></script>
@@ -339,7 +340,9 @@
         myDiagram.model.setDataProperty(slicedata, "count", slicedata.count - 1);
       myDiagram.model.commitTransaction("decrement count");
     }
-  }
+    }
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+    <script src="../Scripts/d3pie.min.js"></script>
 </script>
     
     <!--div id="sample"-->
@@ -351,6 +354,9 @@
     <div id="draggable4" class="ui-widget-content"><textarea name="text4" cols="35" rows="8">Option 4&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
     <div id="draggable5" class="ui-widget-content"><textarea name="text5" cols="35" rows="8">Option 5&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel risus a urna viverra sagittis.</textarea></div>
 
+    <div id="myPie"></div>
 
-
+    <script>
+        var pie = new d3pie("mypie", {});
+</script>
 </asp:Content>
