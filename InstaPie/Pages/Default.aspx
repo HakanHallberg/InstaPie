@@ -18,31 +18,7 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <div id="pie" class="dragThis"></div>
-
-    <script>
-    var pie = new d3pie("pie", {
-        size: {
-        pieOuterRadius: "100%",
-			canvasHeight: 360
-		},
-		data: {
-        sortOrder: "value-asc",
-			smallSegmentGrouping: {
-        enabled: true,
-				value: 2,
-				valueType: "percentage",
-				label: "Other birds",
-				color: "#999999"
-			},
-			content: [
-				{label: "Bushtit", value: 50 },
-				{label: "Chickadee", value: 25 },
-				{label: "Kestrel", value: 25 }
-			]
-		}
-	});
-    </script>
+    
 
      <div id="instaWrap">
         <div id="instaInfo">
@@ -79,7 +55,7 @@
             
             <br />
              
-              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 	<div class="flipper">
 		<div class="front">
 			<!-- front content -->
@@ -97,4 +73,30 @@
               <div id="testResults"></div>
         </div>
     </div>
+    <div id="pie" class="dragThis"></div>
+
+    <script>
+        var pie = new d3pie("pie", {
+            size: {
+                pieOuterRadius: "100%",
+                canvasHeight: 360
+            },
+            data: {
+                sortOrder: "value-asc",
+                smallSegmentGrouping: {
+                    enabled: true,
+                    value: 2,
+                    valueType: "percentage",
+                    label: "Other birds",
+                    color: "#999999"
+                },
+                content: [
+                    { label: "Bushtit", value: 50 },
+                    { label: "Chickadee", value: 25 },
+                    { label: "Kestrel", value: 25 }
+                ]
+            }
+        });
+    </script>
+
 </asp:Content>
