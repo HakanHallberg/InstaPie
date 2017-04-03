@@ -66,7 +66,7 @@
 		</div>
 		<div class="back">
 			<!-- back content -->
-            <a href="http://www.develit.ninja/" target="_blank"><h2 id="loggo">Develit</h2></a>
+            <a href="http://www.develit.ninja/" target="_blank"><h2 id="loggo">www.develit.ninja</h2></a>
 		</div>
 	</div>
 </div>  

@@ -31,3 +31,8 @@ function updatePie()
         }
     });
 }
+
+function clearAll() {
+    $("input[type=text]").val('');
+    $("input[type=number]").val('');
+}
