@@ -107,7 +107,7 @@
 		</div>
 		<div class="back">
 			<!-- back content -->
-            <h1>FUCK OFF!</h1>
+            <a href="http://www.develit.ninja/" target="_blank"><h3 id="loggo">Develit</h3></a>
 		</div>
 	</div>
 </div>  
