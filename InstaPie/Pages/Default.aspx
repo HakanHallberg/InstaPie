@@ -22,7 +22,7 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <div id="pie"></div>
+    <div id="pie" class="dragThis"></div>
 
     <script>
     var pie = new d3pie("pie", {
