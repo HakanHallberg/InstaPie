@@ -133,30 +133,30 @@
 }
 
 #draggable1 {
-    top: -400px;
+    top: -500px;
     background-color: #B378C1;
 }
 
 #draggable2 {
-    top: -220px;
+    top: -320px;
     left: -265px;
     background-color: #F25F5C;
 }
 
 #draggable3 {
-    top: -400px;
+    top: -500px;
     left: +280px;
     background-color: #FFE066;
 }
 
 #draggable4 {
-    top: -220px;
+    top: -320px;
     left: +15px;
     background-color: #2B98C5;
 }
 
 #draggable5 {
-    top: -250px;
+    top: -280px;
     left: +400px;
     background-color: #70C1B3;
 }

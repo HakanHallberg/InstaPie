@@ -13,5 +13,6 @@
     <ProjectItemFile Source="loader.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="goSamples.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="go.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="d3pie.min.js" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>
