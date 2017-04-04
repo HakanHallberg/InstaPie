@@ -2,6 +2,7 @@
 
 'use strict';
 
+
 $(function()
 {
     $(".dragThis").draggable();
@@ -30,6 +31,9 @@ function updatePie()
             ]
         }
     });
+}
+
+
 }
 
 function clearAll() {

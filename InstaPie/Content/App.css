@@ -19,6 +19,7 @@
     border-radius: 5px;
     margin-top: -5px;
     float: left;
+    margin-right: 170px;
 }
 
 
@@ -87,7 +88,7 @@
 }
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper {
-        transition-delay: 1s;
+        transition-delay: 10s;
         transform: rotateY(180deg);
     }
 

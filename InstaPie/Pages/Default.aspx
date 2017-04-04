@@ -21,6 +21,7 @@
     
 
      <div id="instaWrap">
+         
         <div id="instaInfo">
             <!--input type="color" id="instaColor"/-->
             <input type="text" id="instaStuff1" class="pieText"/>
@@ -72,8 +73,9 @@
 </div>  
               <div id="testResults"></div>
         </div>
+         <div id="pie" class="dragThis"></div>
     </div>
-    <div id="pie" class="dragThis"></div>
+    
 
     <script>
         var pie = new d3pie("pie", {
