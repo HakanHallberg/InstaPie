@@ -77,28 +77,6 @@
     </div>
     
 
-    <script>
-        var pie = new d3pie("pie", {
-            size: {
-                pieOuterRadius: "100%",
-                canvasHeight: 360
-            },
-            data: {
-                sortOrder: "value-asc",
-                smallSegmentGrouping: {
-                    enabled: true,
-                    value: 2,
-                    valueType: "percentage",
-                    label: "Other birds",
-                    color: "#999999"
-                },
-                content: [
-                    { label: "Bushtit", value: 50 },
-                    { label: "Chickadee", value: 25 },
-                    { label: "Kestrel", value: 25 }
-                ]
-            }
-        });
-    </script>
+    <script>updatePie();</script>
 
 </asp:Content>
