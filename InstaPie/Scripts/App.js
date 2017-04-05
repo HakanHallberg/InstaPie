@@ -29,11 +29,11 @@ function initiatePie()
                 { label: document.getElementById("instaStuff3").value, value: 1 },
                 { label: document.getElementById("instaStuff4").value, value: 1 },
                 { label: document.getElementById("instaStuff5").value, value: 1 },
-                { label: document.getElementById("instaStuff6").value, value: 1 },
-                { label: document.getElementById("instaStuff7").value, value: 1 },
-                { label: document.getElementById("instaStuff8").value, value: 1 },
-                { label: document.getElementById("instaStuff9").value, value: 1 },
-                { label: document.getElementById("instaStuff10").value, value: 1 }
+                { label: document.getElementById("instaStuff6").value, value: 0 },
+                { label: document.getElementById("instaStuff7").value, value: 0 },
+                { label: document.getElementById("instaStuff8").value, value: 0 },
+                { label: document.getElementById("instaStuff9").value, value: 0 },
+                { label: document.getElementById("instaStuff10").value, value: 0 }
             ]
         }
     });
@@ -41,6 +41,8 @@ function initiatePie()
 
 function updatePieNow()
 {
+    parent.removeChild("pie");
+
     var pie = new d3pie("pie", {
         size: {
             pieOuterRadius: "100%",
