@@ -34,7 +34,7 @@ function updatePie()
 }
 
 
-}
+
 
 function clearAll() {
     $("input[type=text]").val('');
