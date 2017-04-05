@@ -24,14 +24,26 @@ function updatePie()
                 color: "#999999"
             },
             content: [
-                { label: "Bushtit", value: 1 },
-                { label: "Chickadee", value: 1 },
-                { label: "Kestrel", value: 1 }
+                { label: document.getElementById("instaStuff1").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff2").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff3").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff4").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff5").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff6").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff7").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff8").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff9").innerHTML, value: 1 },
+                { label: document.getElementById("instaStuff10").innerHTML, value: 1 }
             ]
         }
     });
 }
 
+
+function testFunc()
+{
+    document.getElementById("instaStuff1").innerHTML = "HELLO WORLD!!";
+}
 
 function clearAll() {
     $("input[type=text]").val('');

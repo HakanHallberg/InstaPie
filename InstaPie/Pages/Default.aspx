@@ -21,7 +21,6 @@
     
 
      <div id="instaWrap">
-         
         <div id="instaInfo">
             <!--input type="color" id="instaColor"/-->
             <input type="text" id="instaStuff1" class="pieText"/>
@@ -61,16 +60,17 @@
 		<div class="front">
 			<!-- front content -->
             <div id="buttonDiv">
-            <input type="button" id="updatePie" class="updateButton" value="Update &#8635" onclick="updatePie();">
-            <input type="button" id="clearPie" class="clearButton" value="&#9587" onclick="clearAll();">
-            </div> 
+                <input type="button" id="updatePie" class="updateButton" value="Update &#8635" onclick="testFunc();">
+                <input type="button" id="clearPie" class="clearButton" value="&#9587" onclick="clearAll();">
+                <input type="button" id="updateTest" value="Stuff" onclick="testFunc();">
+            </div>
 		</div>
 		<div class="back">
 			<!-- back content -->
             <a href="http://www.develit.ninja/" target="_blank"><h2 id="loggo">www.develit.ninja</h2></a>
 		</div>
 	</div>
-</div>  
+</div>
               <div id="testResults"></div>
         </div>
          <div id="pie" class="dragThis"></div>
