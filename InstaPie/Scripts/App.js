@@ -87,7 +87,8 @@ function testFunc()
     document.getElementById("instaStuff2").value = "Test2";
     document.getElementById("instaNumber2").value = "1";
 
-    
+    var testObj = document.getElementById("instaPie");
+    testObj.size.canvasHeight = 500;
 }
 
 function clearAll() {
