@@ -6,6 +6,7 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <meta name="WebPartPageExpansion" content="full" />
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -77,7 +78,13 @@
          <div id="pieAndInfo" class="dragThis">
          <div id="pie" "></div>
             <div id="outerDiv"> 
-             <textarea  id="textArea" rows:10 cols:7></textarea>  
+             <textarea  id="textArea" rows:10 cols:7></textarea>
+                <ul id="listMenu">
+                    <li class="icons"><i class="fa fa-print fa-2x" aria-hidden="true"></i></li>
+                    <li class="icons"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></li>
+                    <li class="icons"><i class="fa fa-floppy-o fa-2x" aria-hidden="true"></i></li>
+                    <li class="icons"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></li>
+                </ul>
             </div>
          </div>
     </div>
