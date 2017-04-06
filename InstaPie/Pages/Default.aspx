@@ -25,35 +25,34 @@
         <div id="instaInfo">
             <!--input type="color" id="instaColor"/-->
             <input type="text" id="instaStuff1" class="pieText"/>
-            <input type="number" id="
-                " class="pieNr"/><br />
+            <input type="number" id="instaNumber1" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff2" value="test" class="pieText"/>
-            <input type="number" id="instaNumber2" class="pieNr"/><br />
+            <input type="number" id="instaNumber2" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff3" class="pieText"/>
-            <input type="number" id="instaNumber3" class="pieNr"/><br />
+            <input type="number" id="instaNumber3" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff4" class="pieText"/>
-            <input type="number" id="instaNumber4" class="pieNr"/><br />
+            <input type="number" id="instaNumber4" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff5" class="pieText"/>
-            <input type="number" id="instaNumber5" class="pieNr"/><br />
+            <input type="number" id="instaNumber5" class="pieNr" value="0"/><br />
             
             <input type="text" id="instaStuff6" class="pieText"/>
-            <input type="number" id="instaNumber6" class="pieNr"/><br />
+            <input type="number" id="instaNumber6" class="pieNr" value="0"/><br />
             
             <input type="text" id="instaStuff7" class="pieText"/>
-            <input type="number" id="instaNumber7" class="pieNr"/><br />
+            <input type="number" id="instaNumber7" class="pieNr" value="0"/><br />
             
             <input type="text" id="instaStuff8" class="pieText"/>
-            <input type="number" id="instaNumber8" class="pieNr"/><br />
+            <input type="number" id="instaNumber8" class="pieNr" value="0"/><br />
             
             <input type="text" id="instaStuff9" class="pieText"/>
-            <input type="number" id="instaNumber9" class="pieNr"/><br />
+            <input type="number" id="instaNumber9" class="pieNr" value="0"/><br />
             
             <input type="text" id="instaStuff10" class="pieText"/>
-            <input type="number" id="instaNumber10" class="pieNr"/><br />
+            <input type="number" id="instaNumber10" class="pieNr" value="0"/><br />
             
             <br />
              
