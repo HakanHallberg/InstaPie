@@ -73,6 +73,10 @@
               <div id="testResults"></div>
         </div>
          <div id="pie" class="dragThis"></div>
+         <div id="infoField">
+             <input type='text' name='PieInfo' size='15' placeholder='Put information about your pie here' />'
+
+         </div>
     </div>
 
  
