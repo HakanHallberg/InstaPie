@@ -42,7 +42,7 @@ var defaultSettings = {
 			text:     "",
 			color:    "#333333",
 			fontSize: 18,
-			font:     "arial"
+            font: "arial"
 		},
 		subtitle: {
 			text:     "",
@@ -254,9 +254,11 @@ var helpers = {
 		var canvasHeight = pie.options.size.canvasHeight;
 		var backgroundColor = pie.options.misc.colors.background;
 
-		var svg = d3.select(element).append("svg:svg")
-			.attr("width", canvasWidth)
-			.attr("height", canvasHeight);
+        var svg = d3.select(element).append("svg:svg")
+            .attr("width", canvasWidth)
+            .attr("height", canvasHeight)
+            .attr("id", "instaPie");
+            
 
 		if (backgroundColor !== "transparent") {
 			svg.style("background-color", function() { return backgroundColor; });

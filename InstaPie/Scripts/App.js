@@ -41,7 +41,19 @@ function initiatePie()
 
 function updatePieNow()
 {
-    parent.removeChild("pie");
+    var elementExists = document.getElementById("instaPie");
+    if (elementExists !== null)
+    {
+        var elem = document.getElementById("instaPie");
+        elem.parentNode.removeChild(elem);
+
+        //var myNode = document.getElementById("pie");
+        //while (myNode.firstChild)
+        //{
+        //    myNode.removeChild(myNode.firstChild);
+        //}
+    }
+    
 
     var pie = new d3pie("pie", {
         size: {
