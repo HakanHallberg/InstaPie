@@ -74,7 +74,12 @@
 </div>
               <div id="testResults"></div>
         </div>
-         <div id="pie" class="dragThis"></div>
+         <div id="pieAndInfo" class="dragThis">
+         <div id="pie" "></div>
+            <div id="outerDiv"> 
+             <textarea  id="textArea" rows:10 cols:7></textarea>  
+            </div>
+         </div>
     </div>
     
 
