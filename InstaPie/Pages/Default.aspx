@@ -24,7 +24,7 @@
      <div id="instaWrap">
         <div id="instaInfo">
             <!--input type="color" id="instaColor"/-->
-            <input type="text" id="instaStuff1" class="pieText"/>
+            <input type="text" id="instaStuff1" class="pieText" placeholder="Pie-piece name"/>
             <input type="number" id="instaNumber1" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff2" value="test" class="pieText"/>
@@ -77,7 +77,7 @@
          <div id="pieAndInfo" class="dragThis">
          <div id="pie" "></div>
             <div id="outerDiv"> 
-             <textarea  id="textArea" rows:10 cols:7></textarea>
+             <textarea  id="textArea" rows:10 cols:7 placeholder="Put information about your pie here"></textarea>
                 <ul id="listMenu">
                     <li class="icons"><i class="fa fa-print fa-2x" aria-hidden="true"></i></li>
                     <li class="icons"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></li>
