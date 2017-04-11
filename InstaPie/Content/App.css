@@ -223,3 +223,8 @@ li.icons {
     float: left;
     margin-left: 21px;
 }
+
+li.icons:hover {
+    background-color: #555;
+    color: white;
+}

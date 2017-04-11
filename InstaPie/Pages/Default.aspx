@@ -27,7 +27,7 @@
             <input type="text" id="instaStuff1" class="pieText" placeholder="Pie-piece name"/>
             <input type="number" id="instaNumber1" class="pieNr" value="0"/><br />
 
-            <input type="text" id="instaStuff2" value="test" class="pieText"/>
+            <input type="text" id="instaStuff2" class="pieText"/>
             <input type="number" id="instaNumber2" class="pieNr" value="0"/><br />
 
             <input type="text" id="instaStuff3" class="pieText"/>
@@ -89,6 +89,7 @@
     </div>
     
 
-    <script>initiatePie();</script>
+    <%--<script>initiatePie();</script>--%>
+    <script>updatePieNow();</script>
 
 </asp:Content>
