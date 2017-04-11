@@ -63,6 +63,8 @@ function updatePieNow()
                 label: "Pies",
                 color: "#999999"
             },
+
+     
             content: [
                 { label: document.getElementById("instaStuff1").value, value: 1 },
                 { label: document.getElementById("instaStuff2").value, value: 1 },
@@ -83,9 +85,9 @@ function updatePieNow()
 function testFunc()
 {
     document.getElementById("instaStuff1").value = "HELLO WORLD!!";
-    document.getElementById("instaNumber1").value = "2";
+    document.getElementById("instaNumber1").value = 2;
     document.getElementById("instaStuff2").value = "Test2";
-    document.getElementById("instaNumber2").value = "1";
+    document.getElementById("instaNumber2").value = 1;
 
     var testObj = document.getElementById("instaPie");
     testObj.size.canvasHeight = 500;
