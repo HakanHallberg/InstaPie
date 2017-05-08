@@ -66,16 +66,16 @@ function updatePieNow()
 
      
             content: [
-                { label: document.getElementById("instaStuff1").value, value: 1 },
-                { label: document.getElementById("instaStuff2").value, value: 1 },
-                { label: document.getElementById("instaStuff3").value, value: 1 },
-                { label: document.getElementById("instaStuff4").value, value: 1 },
-                { label: document.getElementById("instaStuff5").value, value: 1 },
-                { label: document.getElementById("instaStuff6").value, value: 1 },
-                { label: document.getElementById("instaStuff7").value, value: 1 },
-                { label: document.getElementById("instaStuff8").value, value: 1 },
-                { label: document.getElementById("instaStuff9").value, value: 1 },
-                { label: document.getElementById("instaStuff10").value, value: 1 }
+                { label: document.getElementById("instaStuff1").value, value: parseInt(document.getElementById("instaNumber1").value) },
+                { label: document.getElementById("instaStuff2").value, value: parseInt(document.getElementById("instaNumber2").value) },
+                { label: document.getElementById("instaStuff3").value, value: parseInt(document.getElementById("instaNumber3").value) },
+                { label: document.getElementById("instaStuff4").value, value: parseInt(document.getElementById("instaNumber4").value) },
+                { label: document.getElementById("instaStuff5").value, value: parseInt(document.getElementById("instaNumber5").value) },
+                { label: document.getElementById("instaStuff6").value, value: parseInt(document.getElementById("instaNumber6").value) },
+                { label: document.getElementById("instaStuff7").value, value: parseInt(document.getElementById("instaNumber7").value) },
+                { label: document.getElementById("instaStuff8").value, value: parseInt(document.getElementById("instaNumber8").value) },
+                { label: document.getElementById("instaStuff9").value, value: parseInt(document.getElementById("instaNumber9").value) },
+                { label: document.getElementById("instaStuff10").value, value: parseInt(document.getElementById("instaNumber10").value) }
             ]
         }
     });
@@ -90,7 +90,7 @@ function testFunc()
     document.getElementById("instaNumber2").value = 1;
 
     var testObj = document.getElementById("instaPie");
-    testObj.size.canvasHeight = 500;
+    //testObj.size.canvasHeight = 500;
 }
 
 function clearAll() {
